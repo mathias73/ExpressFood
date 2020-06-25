@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body class="index">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ExpressFood</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="sql.html">SQL</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="utilisation.html">Utilisation</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="sequence.html">Séquence</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="uml-merise.html">UML / Merise</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="clients.php" method="post">
+                    <p class="title">Liste des Clients</p>
+
+                    <img src="./img/customer.svg"  class="img-fluid" alt="SQL request for customer">
+
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="plats.php" method="post">
+                    <p class="title">Liste des plats du jour</p>
+                    <img src="./img/dish.svg" class="img-fluid" alt="SQL request dish">
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="livreurs.php" method="post">
+                    <p class="title">Liste des livreurs</p>
+                    <img src="./img/deliveryman.svg" class="img-fluid" alt="SQL request deliveryman">
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="commandes.php" method="post">
+                    <p class="title">Liste des commandes</p>
+                    <img src="./img/order.svg" class="img-fluid" alt="SQL request order">
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="support.php" method="post">
+                    <p class="title">Liste des demandes de support</p>
+                    <img src="./img/support.svg" class="img-fluid" alt="SQL request support">
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+            <div class="col-md-12 m-3 p-3 box">
+                <form action="avis.php" method="post">
+                    <p class="title">Liste des avis</p>
+                    <img src="./img/opinion.svg" class="img-fluid" alt="SQL request opinion">
+                    <button type="submit" class="btn btn-primary">Voir</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
